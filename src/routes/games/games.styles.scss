@@ -1,0 +1,44 @@
+.main-container {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  width: 90%;
+
+  .sub-container {
+    width: 70%;
+  }
+
+  .search-container {
+    width: 30%;
+
+    .input-container {
+      display: flex;
+      justify-content: flex-end;
+
+      .search {
+        position: relative;
+
+        .search-logo {
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          right: 5px;
+          top: 3px;
+        }
+      }
+    }
+
+    .categories-container {
+      margin: 100px 0 0 40px;
+
+      h3 {
+        padding-bottom: 16px;
+        border-bottom: solid 1px black;
+      }
+    }
+  }
+}
+
+.games-container {
+  display: flex;
+}
